@@ -1,0 +1,20 @@
+{
+    "KPlugin": {
+        "Name": "KWin Raise Together",
+        "Description": "Raises together windows that have been tiled together",
+        "Icon": "preferences-system-windows",
+        "Authors": [
+            {
+                "Email": "rafal.cisek121@gmail.com",
+                "Name": "Gornius"
+            }
+        ],
+        "Id": "kwinRaiseTogether",
+        "Version": "0.1",
+        "License": "GPLv3",
+        "Website": "https://github.com/gornius/kwin-raise-together"
+    },
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js",
+    "KPackageStructure": "KWin/Script"
+}
