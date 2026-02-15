@@ -10,7 +10,7 @@
             }
         ],
         "Id": "kwinRaiseTogether",
-        "Version": "0.1",
+        "Version": "0.1.0",
         "License": "GPLv3",
         "Website": "https://github.com/gornius/kwin-raise-together"
     },
