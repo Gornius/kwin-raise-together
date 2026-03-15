@@ -1,6 +1,6 @@
 function getParentTile(window) {
   let currentTile = window.tile;
-  while (currentTile.parent !== null) {
+  while (currentTile?.parent !== null) {
     currentTile = currentTile.parent;
   }
 
