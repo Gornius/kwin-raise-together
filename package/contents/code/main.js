@@ -1,6 +1,11 @@
 function getParentTile(window) {
   let currentTile = window.tile;
-  while (currentTile?.parent !== null) {
+
+  if (!currentTile || !currentTile.parent) {
+    return null;
+  }
+
+  while (currentTile.parent !== null) {
     currentTile = currentTile.parent;
   }
 
@@ -8,6 +13,10 @@ function getParentTile(window) {
 }
 
 function getAllWindowsInTile(tile) {
+  if (!tile) {
+    return [];
+  }
+
   const windows = [];
 
   function helper(windows, currentTile) {
