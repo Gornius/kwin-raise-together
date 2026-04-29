@@ -1,3 +1,4 @@
+# !!! THIS PROJECT HAS BEEN MERGED TO [NATIVE TILING IMPROVED](https://github.com/Gornius/kwin-native-tiling-improved) PROJECT !!!
 
 # KWin Raise Together
 
